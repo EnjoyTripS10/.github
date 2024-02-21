@@ -40,11 +40,11 @@ enjoytrip에서는 국내의 모든 여행지를 검색할 수 있으며 쉽게 
 - 2023년 11월 16일  ~ 2023년 11월 24일 (약 2주)
 - BackEnd 개발 일정
 
-![Untitled](img/Untitled.png)
+![Untitled](Untitled.png)
 
 - FrontEnd 개발 일정
 
-![Untitled](img/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 ## 성과
 
@@ -100,7 +100,7 @@ DB의 테이블, 컬럼명은 대문자로 정의한다.
 
 ## DB설계
 
-![Untitled](img/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
 ## 기능 구현 설명
 
@@ -126,29 +126,29 @@ DB의 테이블, 컬럼명은 대문자로 정의한다.
 1. 메인페이지 
 - 첫 페이지에 사용자의 사용을 돕기 위해 모든 기능을 함축해서 볼 수 있도록 간단한 카드를 통해 보여준다.
 
-![Untitled](img/Untitled%201.gif)
+![Untitled](Untitled%201.gif)
 
 1. 장소에 대한 게시글 작성
 - 장소를 검색하여 태그하고 사진과 함께 정보를 입력하여 게시물을 작성할 수 있다.
 
-![Untitled](img/Untitled%202.gif)
+![Untitled](Untitled%202.gif)
 
 1. 게시물 검색 / 조회 / 댓글 작성
 
-![Untitled](img/Untitled%203.gif)
+![Untitled](Untitled%203.gif)
 
 1. 계획 작성
 - 여행에 대한 계획을 날짜를 선택하여 해당하는 날짜의 장소를 drag & drop으로 일정을 만들 수 있다.
 
-![Untitled](img/Untitled%204.gif)
+![Untitled](Untitled%204.gif)
 
 1. 내위치 주변 장소 검색
 - 주변에 있는 맛집/카페/관광지/숙박 카테고리 별로 장소를 조회할 수 있다.
 - 좌측의 장소 위에 마우스가 올라가면 지도에 있는 마커가 포커싱이 되어 가시성을 높혔다.
 
-![Untitled](img/Untitled%205.gif)
+![Untitled](Untitled%205.gif)
 
 1. 실시간 알림
 - **Web Socket**을 통해 사용자와 관련된 정보에 대한 알림을 실시간으로 준다.
 
-![Untitled](img/Untitled%206.gif)
+![Untitled](Untitled%206.gif)
