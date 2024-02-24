@@ -5,10 +5,14 @@
 
 ## 참여 인원 (2명)
 
-| 이름 | 역할 | 구현기능 |  |
-| --- | --- | --- | --- |
-| 김보경 | 팀장 (BackEnd) | 카카오맵 api활용,,,,,주저리 주저리 등 |  |
-| 김범수 | 팀원 (FrontEnd) |  |  |
+| 이름 | 역할 | 구현기능 |
+| --- | --- | --- |
+| 김보경 | 팀장 (BackEnd) | RESTful API<br> 카카오 소셜로그인<br> 카카오맵 API 활용<br> 네이버 검색 API<br> 실시간 알림|
+| 김범수 | 팀원 (FrontEnd) | 화면 설계 및 구성<br> 비동기 통신 처리<br> 현위치 기반 실시간 정보 제공 기능<br>실시간 알림 |
+
+## 성과
+
+삼성 청년 SW 아카데미 1학기 프로젝트 우수상 - 삼성전자
 
 ## 핵심 기능
 
@@ -46,45 +50,38 @@ enjoytrip에서는 국내의 모든 여행지를 검색할 수 있으며 쉽게 
 
 ![Untitled](profile/Untitled%201.png)
 
-## 성과
 
-삼성 청년 SW 아카데미 1학기 프로젝트 우수상 - 삼성전자
+<div align=center><h1>📚 기술 스택</h1></div>
 
-## 기술 스택
-
-mysql 8.0
-
-spring boot 2.7.2 / java 11
-
-gradle
-
-node.js + vue3
-
-javascript
-
-Tailwind CSS
-
-## Tool
-
-intellij
-
-visual studio
-
-postman
-
-swagger
-
-github
-
-## API
-
-HTML - Geolocation API
-
-Drag and Drop API
-
-KAKAO Map API
-
-NAVER API
+<div align=center> 
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
+  <img src="https://img.shields.io/badge/spring%20boot-6DB33F?style=for-the-badge&logo=spring%20boot&logoColor=white"> 
+  <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+  <img src="https://img.shields.io/badge/apache%20tomcat-F8DC75?style=for-the-badge&logo=apache%20tomcat&logoColor=white">
+  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
+  
+  <br>
+  <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"> 
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> 
+  
+  <br>
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+  
+  <br>
+  <img src="https://img.shields.io/badge/intellij%20idea-000000?style=for-the-badge&logo=intellij%20idea&logoColor=white">
+  <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+  <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
+  <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
+  
+  <br>
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <br>
+</div>
 
 ### code convention
 
@@ -107,12 +104,24 @@ DB의 테이블, 컬럼명은 대문자로 정의한다.
 ### BackEnd
 
 ```jsx
-
+RESTful API
+카카오 소셜로그인
+카카오맵 API 활용
+네이버 검색 API
+실시간 알림 (Socket.io)
 ```
 
 ### FrontEnd
 
 ```jsx
+화면 설계 및 구성
+- Vue3와 Javascript(ES6)를 활용하여 컴포넌트 단위로 분리되어있는 화면을 구성
+비동기 통신 처리
+- Axios, async를 활용하여 비동기 통신 구현
+현위치 기반 실시간 정보 제공 기능
+- 카카오맵 API, 네이버 검색 API, Geolocation API 3가지의 API를 활용하여 현위치 기반 주변 장소를 검색 후 지도를 통해 정보전달
+실시간 알림
+- 사용자에게 댓글, 좋아요에 대한 알림을 위해 Socket.io를 이용한 실시간 알림 기능 구
 
 ```
 
